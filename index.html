@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        font-family: "Times New Roman";
+      }
+
+      .container {
+        background-color: antiquewhite;
+        height: 550px;
+        width: 400px;
+        border: 2px solid black;
+        margin: auto;
+        box-sizing: border-box;
+      }
+      .class1 {
+        height: 60px;
+        border: solid black;
+      }
+      .arrow {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        display: inline;
+        margin-left: 10px;
+      }
+      .profile {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        display: inline;
+      }
+      .caption {
+        display: block;
+        margin-left: 40px;
+        margin-top: -25px;
+      }
+      .name {
+        display: flex;
+        display: inline-block;
+        margin-left: 10px;
+        margin-top: 15px;
+      }
+      .videocall {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        display: inline;
+        margin-left: 110px;
+      }
+      .call {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        display: inline;
+        margin-left: 20px;
+      }
+      .option {
+        height: 30px;
+        width: 30px;
+        position: relative;
+        display: inline;
+        margin-left: 10px;
+      }
+      .class2 {
+        background-color: cornflowerblue;
+        overflow-y: scroll;
+        height: 420px;
+        display: block;
+      }
+      .message {
+        width: fit-content;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        padding: 10px;
+        background-color: aquamarine;
+      }
+      .usermessage {
+        margin-left: auto;
+        background-color: red;
+        color: black;
+      }
+      .span {
+        padding: 1px 20px;
+        text-align: center;
+        line-height: 1;
+        background-color: darkgrey;
+        color: khaki;
+        border-radius: 16px;
+        margin-left: 150px;
+        position: sticky;
+        top: 0;
+      }
+      .class3 {
+        height: 60px;
+        border: solid black;
+        display: block;
+      }
+      .text {
+        margin-left: 20px;
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="class1">
+        <div>
+          <img src="arrow.png" class="arrow" height="40" width="40" />
+          <img src="profile.png" class="profile" height="40" width="40" />
+          <h2 class="name">king</h2>
+          <img src="videocall.png" class="videocall" height="40" width="40" />
+          <img src="call.png" class="call" height="30" width="30" />
+          <img src="option.png" class="option" height="30" width="30" />
+          <span class="caption">online</span>
+        </div>
+      </div>
+
+      <div class="class2">
+        <span class="span">sunday</span>
+        <p class="message">hi</p>
+        <p class="message usermessage">hello</p>
+        <p class="message">how are you</p>
+        <p class="message usermessage">i am good</p>
+        <p class="message usermessage">what about you buddy</p>
+        <p class="message">i am great</p>
+        <span class="span">monday</span>
+        <p class="message usermessage">what about your family</p>
+        <p class="message">everyone good</p>
+        <p class="message usermessage">what about your profession</p>
+        <p class="message">i am working as a frontend devloper</p>
+        <p class="message">you buddy?</p>
+        <span class="span">tuedsay</span>
+        <p class="message usermessage">what about your profession</p>
+        <p class="message">i am working as a frontend devloper</p>
+        <p class="message">you buddy?</p>
+        <p class="message usermessage">
+          i am also looking for a job as a frontend developer
+        </p>
+        <p class="message">good</p>
+        <p class="message">i refer you in my company</p>
+        <p class="message usermessage">thank you buddy</p>
+        <span class="span">wednesday</span>
+        <p class="message">hey buddy</p>
+        <p class="message usermessage">hi buddy</p>
+        <p class="message">send me your resume</p>
+        <p class="message usermessage">done</p>
+        <p class="message usermessage">check mail buddy</p>
+        <p class="message">i received</p>
+        <span class="span">thursday</span>
+        <p class="message usermessage">hi buddy</p>
+        <p class="message usermessage">what about my job</p>
+        <p class="message">wait</p>
+        <p class="message">i will tells you a day to come interview</p>
+        <p class="message">please attend</p>
+        <p class="message">okay</p>
+        <span class="span">friday</span>
+        <p class="message">saturday is your interview</p>
+        <p class="message usermessage">sure</p>
+        <span class="span">saturday</span>
+        <p class="message usermessage">hi</p>
+        <p class="message usermessage">where are you</p>
+        <p class="message">i am at office</p>
+        <p class="message">meet hr</p>
+        <p class="message">she in 3rd floor</p>
+        <p class="message usermessage">okay</p>
+        <p class="message">all the best</p>
+        <p class="message usermessage">thank you</p>
+        <p class="message usermessage">i text you later</p>
+        <p class="message">okay</p>
+      </div>
+      <div class="class3">
+        <div class="text">
+          <label for="text your message"></label>
+          <input
+            type="text"
+            name="message"
+            value=""
+            id=""
+            placeholder="text your message"
+          />
+          <input type="submit" value="send" />
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
